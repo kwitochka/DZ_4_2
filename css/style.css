@@ -1,0 +1,18 @@
+div {
+	height: 200px;
+	width: 200px;
+}
+
+.red {
+	background-color:#850000;
+}
+
+section {
+	display: flex;
+}
+
+img {
+	margin: 23px auto;
+	display: block;
+	/*padding-top: 23px;*/
+}
