@@ -1,18 +1,23 @@
+.board {
+	width: 600px;
+	height: 600px;
+}
+
 div {
 	height: 200px;
 	width: 200px;
+	float: left;
 }
 
-.red {
+.board div:nth-child(odd) {
 	background-color:#850000;
 }
 
-section {
-	display: flex;
+.board div:nth-child(even) {
+	background-color: #fff;
 }
 
 img {
 	margin: 23px auto;
 	display: block;
-	/*padding-top: 23px;*/
 }
